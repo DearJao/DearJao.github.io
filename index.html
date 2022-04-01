@@ -5,42 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Portofólio João Victor </title>
+
+
+	<style>
+		
+		body{
+			color: rgb(255, 4, 4);
+			background-color: rgb(0, 17, 26);
+			font-family:Arial, Helvetica, sans-serif;
+
+
+		}
+		
+		.title{
+			color: rgb(255, 4, 4);
+			text-align: center;
+		}
+
+		.title2{
+			font-family:monospace
+		}
+
+		
+
+		.blog{
+			color: red;
+			font-style: italic;
+		}
+
+		.important{
+			font-weight: bold;
+		}
+
+		.list{
+			color: red;
+		}
+
+
+	</style>
+
+
+
 </head>
 
 <body>
-    <h1 id="inicio"> João Victor Vieira Rodrigues</h1> 
-    <img src="FotoPortofolioWeb.jpg" 
-    width="300px" alt="foto de João Victor">
+    <h1 class="title" id="inicio"> João Victor Vieira Rodrigues </h1> 
+    <p><img class="foto" src="FotoPortofolioWeb.jpg" 
+    width="300px" alt="foto de João Victor"> </p>
 
     <br>
     <br>
 
-    <hr>
+    <hr color="red" >
     
-    <h2 id="sobre"> Me chamo João Victor, tenho 19 anos e moro em Tietê-SP e sou brasileiro. </h2>
+    <h2 class="title2" id="sobre"> Me chamo João Victor, tenho 19 anos e moro em Tietê-SP e sou brasileiro. </h2>
     
     <p> <strong> Minhas habilidades: </strong> </p>       
-
+	<ul class="list">
    <li> Boa Comunicação </li> 
    <li> Paciencia </li>
-   <li> <strong> Autoconhecimento </strong> </li>
+   <li class="important"> Autoconhecimento </li>
    <li> Nivel de ingles mediano </li>
+    </ul>
 
 <p id="blog prefrerido"> <strong> Meu blog prefrerido: </strong> </p>
     
-<a target="_blank" href="https://twitter.com/MercedesAMGF1BR?s=20&amp;t=Eg_2PTDsACha7IiBcCMYIQ"> Mercedes-AMG F1 Brasil </a>
+<a class="blog" target="_blank" href="https://twitter.com/MercedesAMGF1BR?s=20&amp;t=Eg_2PTDsACha7IiBcCMYIQ"> Mercedes-AMG F1 Brasil </a>
 
 <br>
 <br>
 
-<hr>
+<hr color="red">
 
-<li> <a href="http://127.0.0.1:5500/index.html#inicio"> inicío </a> </li>
-<li> <a href="http://127.0.0.1:5500/index.html#sobre"> sobre mim </a> </li>
-<li> <a href="http://127.0.0.1:5500/index.html#blog"> blog prefrerido </a> </li>
+<li> <a href="#inicio"> inicío </a> </li>
+<li> <a href="#sobre"> sobre mim </a> </li>
+<li> <a href="#blog"> blog prefrerido </a> </li>
+
+<br>
+<br>
 
 <a href="./FotoPortofolioWeb.jpg"> clique para ver a minha foto </a>
-
 
 
 <!-- Code injected by live-server -->
